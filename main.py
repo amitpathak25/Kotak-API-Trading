@@ -1,5 +1,9 @@
 import pandas as pd
 import numpy as np
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from src.strategy import SupertrendStrategy
 from src.backtest import run_backtest
 
